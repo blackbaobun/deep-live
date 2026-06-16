@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,follow">
+<title>DEEP ESTATE | High-Precision Real Estate</title>
+<link rel="canonical" href="https://deepestateagency.com/en/">
+<link rel="alternate" hreflang="es" href="https://deepestateagency.com/es/">
+<link rel="alternate" hreflang="en" href="https://deepestateagency.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://deepestateagency.com/en/">
+<meta http-equiv="refresh" content="0; url=/en/">
+<script>
+  (function () {
+    // navigator.languages is the user's ordered preference list and behaves
+    // the same on Windows/macOS/Linux (it's a browser API, not OS-specific).
+    // Serve Spanish only to Spanish-preferring visitors; default everyone
+    // else (en, fr, de, ...) to English.
+    var prefs = navigator.languages || [navigator.language || 'en']
+    var pick = 'en'
+    for (var i = 0; i < prefs.length; i++) {
+      var c = String(prefs[i]).toLowerCase()
+      if (c.indexOf('es') === 0) { pick = 'es'; break }
+      if (c.indexOf('en') === 0) { pick = 'en'; break }
+    }
+    location.replace('/' + pick + '/')
+  })()
+</script>
+</head>
+<body>
+<p>Redirecting… <a href="/en/">Continue to DEEP ESTATE</a></p>
+</body>
+</html>

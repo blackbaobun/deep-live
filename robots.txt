@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://deepestateagency.com
+Sitemap: https://deepestateagency.com/sitemap.xml
